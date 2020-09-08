@@ -28,6 +28,6 @@ In order to view the tasks in the browser, I open them in a text editor, specifi
 <img src="/Compiled Tasks/images/task3-1.JPG" alt="Page View">
 <img src="Compiled Tasks/images/task3-2.JPG" alt="Page View">
 
-
+Happy Coding :sunglasses:
 
 
