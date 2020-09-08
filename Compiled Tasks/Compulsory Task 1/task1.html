@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML With Use Of Javascript</title>
+    <script src="task1.js"></script> <!-- External link to Javascript Sheet. -->
+    <link rel="stylesheet" type="text/css" href="task1.css"> <!-- External link to Css Styling Sheet. -->
+</head>
+<!-- Function to alert user that page has fully loaded, created in js sheet added in body start tag below. -->
+
+<body onload="loadedPage()" id="pageBody">
+    <h1 id="mainHeading">Welcome to our page!</h1>
+    <!-- Onclick button element below to change fontSize, using function. -->
+    <button onclick="changeHeadingSize()">Click Here To Enlarge Page Heading!</button>
+    <!-- Onclick button element below to return fontSize using function. -->
+    <button onclick="returnHeadingSize()">Click Here To Return Heading To Normal!</button>
+    <h2 id="subHeading">We always strive for excellence!</h2>
+    <!-- Function below to work when mouse hovers over and passed <p> element. -->
+    <p onmouseover="highlightHover()" onmouseout="returnText()" id="introParagraph">Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Placeat dicta explicabo ipsam eum! Cupiditate eaque vero eius atque nam quidem?
+        Itaque, ex. Nostrum debitis et dicta est vitae, ullam assumenda provident ipsum autem. Magni voluptates
+        cupiditate, delectus at ipsum minima explicabo distinctio et ut cumque consectetur ducimus atque, facilis
+        laborum aperiam exercitationem tempore ipsa sapiente voluptatibus consequatur repellendus, illum nemo! Autem
+        corrupti nihil aspernatur, molestias ipsum, a hic quidem dolore dolorum pariatur sapiente tempora nam laudantium
+        similique officiis sint iure ad non facilis asperiores quibusdam modi odit. Porro nobis quis blanditiis hic
+        necessitatibus, voluptas repellendus suscipit, expedita tempore earum molestias inventore debitis, cum
+        repudiandae magni soluta corporis officia architecto pariatur nesciunt. Ut ducimus ipsam animi at eum, harum,
+        dolor sapiente laudantium iusto, maiores quas facilis officia! Id laudantium repellendus libero perspiciatis.
+        Voluptas unde dolor pariatur natus reprehenderit molestias fugiat iusto harum facere, quasi error vero odit
+        nesciunt, quas animi ipsam.</p>
+    <br>
+
+    <!-- Onclick button element to change FontFamily of paragraph, using function. -->
+    <button onclick="changeStyle()">Click Here To Change Font Style!</button>
+    <!-- Onclick button element to highlight text of paragraph, using function. -->
+    <button onclick="highlightText()">Click Here To Highlight The Text!</button><br>
+    <br>
+
+    <img onmouseenter="hoverImage()" onmouseleave="imageReturn()" src="../images/teamLeader.jpg"
+        alt="Picture Of Team Leader" id="teamLeader"><br>
+    <br>
+
+    <!-- Onclick button element to hide image displayed, using function. -->
+    <button onclick="hideImage()">Click Here To Hide Image!</button>
+    <!-- Onclick button element to change image displayed, using function. -->
+    <button onclick="changeImage()">Click Here To change Image!</button><br>
+    <br>
+    <!-- The function in the <div> below only alerts user upon right click on image, created in js sheet. -->
+    <div oncontextmenu="rightClickAlert()" id="clickBox"><img src="../images/page.jpg" alt="Exam Pad and Pen." id="pad">
+    </div>
+    <br>
+    <!-- The function in the form below alerts user upon submission of data, created in js sheet.-->
+    <form onsubmit="dataEntryAlert()" id="inputData">
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

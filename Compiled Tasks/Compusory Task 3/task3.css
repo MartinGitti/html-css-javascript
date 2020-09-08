@@ -1,0 +1,25 @@
+body {
+  background-color: cornflowerblue;
+  padding: 50px;
+  text-align: center;
+}
+
+#calculatorBox{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 60px;
+  margin: 0px auto;
+  padding: 30px 30px 50px 30px;
+  position: relative;
+  width: 450px;
+}
+
+input[type=button] {
+    background: rgb(52, 107, 189);
+    border-radius: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 13px;
+    margin-top: 10px;
+    width: 20%;
+}
+  

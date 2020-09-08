@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic Calculation Page</title>
+    <!-- Link to Javascript sheet below. -->
+    <script src="task2.js"></script>
+    <!-- Instead of a seperate sheet for styling I've added internal styling below. -->
+    <style>
+        body {
+            background-color: cornflowerblue;
+            font-family: courier;
+            list-style-position: inside;
+            text-align: center;
+        }
+
+        img {
+            margin: 1px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Use the form below to do some basic maths:</h1>
+    <p>The form below is designed to calculate intergers.</p>
+    <ol>
+        <!-- List below explains what operators are used for. -->
+        <li><b>Use the " + " operator for addition.</b></li>
+        <li><b>Use the " - " operator for subtraction.</b></li>
+        <li><b>Use the " x " operator for multiplication.</b></li>
+        <li><b>Use the " / " operator for division.</b></li>
+    </ol>
+    <input type="text" name="num1" id='num1'>
+    <!-- Select driodown-list below for user to choose which operator they would like to use.-->
+    <select id="operators">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">x</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" name="num2" id='num2'>
+    <!-- Function, created in js sheet, added below to calculate input once user clicks on the "=" operator-->
+    <button onclick="calculate()"> = </button>
+    <input type="text" id="result" /><br>
+    <br>
+
+    <img src="../images/math.jpg" alt=" Math Image">
+</body>
+
+</html>

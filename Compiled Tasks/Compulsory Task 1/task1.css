@@ -1,0 +1,20 @@
+/* External & custom made style sheet:*/
+button {
+	background-color: lightskyblue;
+	font-weight: bold;
+}
+
+body{
+	background-color: lightblue;
+	margin: 10px, 30px, 30px, 30px;
+	padding: 10px, 30px, 30px, 30px;
+	text-align: center;
+}
+
+img {
+	border: 2px solid black;
+	height: 25%;
+	width: 25%;
+}
+
+

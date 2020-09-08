@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compulsary Task 3</title>
+  <script src="task3.js"></script>
+  <link rel="stylesheet" type="text/css" href="task3.css">
+</head>
+<!-- The function below -->
+
+<body onload="currencyConverter()">
+  <p>Click the button below and see how this button calculates the amount of times you click it.</p>
+  <!-- The function below displays to the user the amount of times the button has been clicked. -->
+  <button onclick="countClicks()">Click me and I'll start counting every click.</button>
+  <p id="Clicks:"></p>
+
+  <!-- Currency Converter -->
+  <input type="text" id="ZAR" size="10" value="0" onchange="zarfunc()" />
+  <label for="ZAR"> ZAR </label>
+  <br>
+
+  <input type="text" id="GBP" size="10" value="0" onchange="gbpfunc()" />
+  <label for="GBP"> GBP </label>
+  <br>
+
+  <input type="text" id="USD" size="10" value="0" onchange="usdfunc()" />
+  <label for="USD"> USD </label>
+  <br>
+
+  <input type="text" id="EUR" size="10" value="0" onchange="eurfunc()" />
+  <label for="EUR"> EUR </label>
+  <br>
+
+
+  <h1>Functions, Functions and more Functions:</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, quam?</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit illo dolorum tempora quasi porro asperiores autem
+    laborum? At doloremque ipsam numquam corrupti officiis libero voluptas ducimus deleniti! Est, quisquam nam.</p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, dolorum maxime? Molestiae iusto iure sint, quas
+    dolor voluptatum voluptatibus recusandae voluptas et sapiente delectus maxime corporis cum repudiandae totam sunt
+    fuga similique eligendi quasi eius, asperiores in? Iste, illum, odio perferendis praesentium maiores id vero itaque
+    temporibus incidunt in molestias nihil voluptatem obcaecati dolorem iure illo sunt saepe amet quam, minus quisquam
+    dolor hic velit. Ea labore numquam quia, laborum ducimus harum velit sunt assumenda veniam voluptas odit eligendi
+    temporibus officia neque, voluptatum dicta modi at vel soluta, id necessitatibus est recusandae explicabo. Ut dicta
+    at nemo fuga, sunt consequuntur.</p>
+  <img src="../images/math.jpg" alt="Math Picture" style="height: 480px; width: 700px;">
+  <img src="../images/math2.jpg" alt="Second Math Picture" style="height: 480px; width: 700px;">
+  <br>
+
+
+  <!--Dropdown List-->
+  <p>Click the button below which loops a dropdown list menu with 25 option elements.</p>
+  <!-- The funtion displays the dropdown-list once button is clicked.-->
+  <button onclick="myDropdownList()">Click here to see dropdown-list!</button>
+  <br>
+
+  <p id="text"></p>
+  <!-- I have added an alternative method to create a dropdown-list, using HTML <select> element.-->
+  <p>Select one of the following options:</p>
+  <select id="optionList" onchange="orderNumber();">
+    <option value="1">Alpha</option>
+    <option value="2">Bravo</option>
+    <option value="3">Charley</option>
+    <option value="4">Delta</option>
+    <option value="5">Echco</option>
+    <option value="6">Foxtrot</option>
+    <option value="7">Golf</option>
+    <option value="8">Hotel</option>
+    <option value="9">India</option>
+    <option value="10">Juliet</option>
+    <option value="11">Kilo</option>
+    <option value="12">Lima</option>
+    <option value="13">Mike</option>
+    <option value="14">November</option>
+    <option value="15">Oscar</option>
+    <option value="16">Papa</option>
+    <option value="17">Quebec</option>
+    <option value="18">Romeo</option>
+    <option value="19">Sierra</option>
+    <option value="20">Tango</option>
+    <option value="21">Uniform</option>
+    <option value="22">Victor</option>
+    <option value="23">Whiskey</option>
+    <option value="24">X-ray</option>
+    <option value="25">Yankee</option>
+    <option value="26">Zulu</option>
+  </select><br>
+  <br>
+
+  <div id="selectionList">Select an option in the dropdown-list above to display its order number:</div>
+  <p id="selectionQuantity">Click below button to display the amount of options in the selection list above!</p>
+  <button onclick="listQuantity()">Show selection amount:</button>
+  <br>
+
+  <!--Calculator-->
+  <div id='calculatorBox'>
+    <form name="calculator">
+      <input type="text" name="answer" />
+      <br>
+
+      <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+      <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+      <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+      <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+      <br />
+
+      <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+      <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+      <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+      <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+      <br>
+
+      <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+      <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+      <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+      <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+      <br>
+
+      <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+      <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+      <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+      <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+      <br>
+    </form>
+  </div>
+  <form onsubmit="dataEntryAlert()" id="inputData">
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname"><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
