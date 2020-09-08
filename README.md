@@ -19,10 +19,13 @@ In order to view the tasks in the browser, I open them in a text editor, specifi
 ### Task 1, Page View:
 <img src="/Compiled Tasks/images/task1-1.JPG" alt="Page View">
 <img src="Compiled Tasks/images/task1-2.JPG" alt="Page View">
+
 <hr/>
 
 ### Task 2, Page View:
 <img src="/Compiled Tasks/images/task2-1.JPG" alt="Page View">
+
+<hr/>
 
 ### Task 3, Page View:
 <img src="/Compiled Tasks/images/task3-1.JPG" alt="Page View">
