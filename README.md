@@ -11,8 +11,8 @@ JavaScript is used add some logic to page which helps with functionality & to ma
 In order to view the tasks in the browser, I open them in a text editor, specifically Visual Studio Code or Sublime Text. I have an extention for these text editors that allows me to open them in the browser, using a live server. This really also helps me to edit or debug the code if need be. To open the task with a live server, ensure that you are in the file with the .html extension.
 
 Task 1 Page Output:
-<img src="/images/task1-1" alt="Page View">
-<img src="/images/task1-2" alt="Page View">
+<img src="/Compiled tasks/images/task1-1" alt="Page View">
+<img src="Compiled tasks/images/task1-2" alt="Page View">
 
 
 
