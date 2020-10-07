@@ -1,14 +1,15 @@
 # html-css-javascript
-## First project working with the three basic front end languages together. 
+* First project working with the three basic front end languages together. HTML, CSS & JavaScript.
 
 <p>
 There are three tasks covered in this project.
-All the tasks focus mainly on the functionality of a web page, rather than styling.
+All the tasks focus mainly on the functionality of a web page, adding logic to a Web Page rather than styling.
 </p>
 
 <p>
-HTML is used to display content in the browser & to aid with a basic structure for the web page.
-Css is used for styling & to assist with layout of page.
+HTML is used to display content in the browser & to gice basic basic structure to a Web Page.
+<span>:chin thumb:</span> Think of the human skeleton.
+CSS is used for styling & to assist with layout of page.
 JavaScript is used add some logic to page which helps with functionality & to make the web page dynamic.
 </p>
 
@@ -31,6 +32,6 @@ In order to view the tasks in the browser, I open them in a text editor, specifi
 <img src="/Compiled Tasks/images/task3-1.JPG" alt="Page View">
 <img src="Compiled Tasks/images/task3-2.JPG" alt="Page View">
 
-Happy Coding :sunglasses:
+<span>Happy Coding :sunglasses:</span>
 
 
