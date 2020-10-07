@@ -36,7 +36,7 @@ All the tasks focus mainly on the functionality of a web page, adding logic to a
 <hr/>
 
 ### Task 3, Page View:
-* 
+* Web Page that allows users to do some basic currency conversions and the page also offers a calculater for mathematical calculations.
 <img src="/Compiled Tasks/images/task3-1.JPG" alt="Page View">
 <img src="Compiled Tasks/images/task3-2.JPG" alt="Page View">
 <hr/>
