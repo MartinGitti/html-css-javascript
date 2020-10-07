@@ -8,7 +8,7 @@ All the tasks focus mainly on the functionality of a web page, adding logic to a
 
 <p>
 HTML is used to display content in the browser & to gice basic basic structure to a Web Page,
-<span>:thinking:Think of the human skeleton.
+<span>:thinking: Think of the human skeleton.
 </p>
 <p>CSS is used for styling & to assist with layout of page.</p>
 <p>JavaScript is used add some logic to page which helps with functionality & to make the web page dynamic.</p>
