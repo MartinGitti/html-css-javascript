@@ -25,15 +25,18 @@ All the tasks focus mainly on the functionality of a web page, adding logic to a
 </p>
 
 ### Task 1, Page View:
+* HTML Page with some JavaScript functionality that allows users to interact with the page.
 <img src="/Compiled Tasks/images/task1-1.JPG" alt="Page View">
 <img src="Compiled Tasks/images/task1-2.JPG" alt="Page View">
 <hr/>
 
 ### Task 2, Page View:
+* Web Page that allows users to do some basic mathematical calculations.
 <img src="/Compiled Tasks/images/task2-1.JPG" alt="Page View">
 <hr/>
 
 ### Task 3, Page View:
+* 
 <img src="/Compiled Tasks/images/task3-1.JPG" alt="Page View">
 <img src="Compiled Tasks/images/task3-2.JPG" alt="Page View">
 <hr/>
