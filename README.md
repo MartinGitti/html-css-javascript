@@ -7,11 +7,11 @@ All the tasks focus mainly on the functionality of a web page, adding logic to a
 </p>
 
 <p>
-HTML is used to display content in the browser & to gice basic basic structure to a Web Page.
-<span>:thinker:</span> Think of the human skeleton.
-CSS is used for styling & to assist with layout of page.
-JavaScript is used add some logic to page which helps with functionality & to make the web page dynamic.
+HTML is used to display content in the browser & to gice basic basic structure to a Web Page,
+<span>:thinking:Think of the human skeleton.
 </p>
+<p>CSS is used for styling & to assist with layout of page.</p>
+<p>JavaScript is used add some logic to page which helps with functionality & to make the web page dynamic.</p>
 
 <p>
 In order to view the tasks in the browser, I open them in a text editor, specifically Visual Studio Code or Sublime Text. I have an extention for these text editors that allows me to open them in the browser, using a live server. This really also helps me to edit or debug the code if need be. To open the task with a live server, ensure that you are in the file with the .html extension.
